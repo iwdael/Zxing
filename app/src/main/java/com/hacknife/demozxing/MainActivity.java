@@ -1,4 +1,4 @@
-package com.blackchopper.demozxing;
+package com.hacknife.demozxing;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

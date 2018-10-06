@@ -1,4 +1,4 @@
-package com.blackchopper.zxing.widget;
+package com.hacknife.zxing.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.blackchopper.zxing.R;
+import com.hacknife.zxing.R;
 import com.google.zxing.client.android.camera.CameraManager;
 
 /**

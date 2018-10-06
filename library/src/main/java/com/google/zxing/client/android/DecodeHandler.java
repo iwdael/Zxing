@@ -23,7 +23,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
-import com.blackchopper.zxing.BaseCaptureActivity;
+import com.hacknife.zxing.BaseCaptureActivity;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.MultiFormatReader;

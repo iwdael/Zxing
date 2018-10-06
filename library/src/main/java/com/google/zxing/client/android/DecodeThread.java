@@ -22,7 +22,7 @@ import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.blackchopper.zxing.BaseCaptureActivity;
+import com.hacknife.zxing.BaseCaptureActivity;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.ResultPointCallback;

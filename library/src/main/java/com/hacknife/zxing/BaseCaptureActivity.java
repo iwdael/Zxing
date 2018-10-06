@@ -1,4 +1,4 @@
-package com.blackchopper.zxing;
+package com.hacknife.zxing;
 
 import android.app.Activity;
 import android.app.AlertDialog;

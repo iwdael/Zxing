@@ -27,8 +27,8 @@ import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.blackchopper.zxing.BaseCaptureActivity;
-import com.blackchopper.zxing.R;
+import com.hacknife.zxing.BaseCaptureActivity;
+import com.hacknife.zxing.R;
 
 import java.io.Closeable;
 import java.io.IOException;
