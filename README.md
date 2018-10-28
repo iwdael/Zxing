@@ -1,1 +1,2 @@
-# Zxing [![](https://jitpack.io/v/hacknife/zxing.svg)](https://jitpack.io/#hacknife/zxing)
+# Zxing
+[![](https://img.shields.io/badge/platform-android-orange.svg)](https://github.com/hacknife/zxing)  [![](https://img.shields.io/badge/version-1.0.3--alpha3-brightgreen.svg)](https://github.com/hacknife/zxing)<br/>
