@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,4 +9,43 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <com.hacknife.zxing.widget.AutoScannerView
+        android:id="@+id/scanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lineColor="@color/blue"
+        app:maskColor="#84000000"
+        app:scannerDrawable="@drawable/scanline"
+        app:textColor="@color/blue"
+        app:triAngleColor="@color/blue" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="二维码"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="相册"
+                android:textColor="@color/blue"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
 </RelativeLayout>

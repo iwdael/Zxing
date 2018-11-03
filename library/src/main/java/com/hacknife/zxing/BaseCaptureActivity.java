@@ -289,13 +289,7 @@ public abstract class BaseCaptureActivity extends Activity implements SurfaceHol
         context.startActivity(intent);
     }
 
-    /**
-     * A valid barcode has been found, so give an indication of success and show the results.
-     *
-     * @param rawResult   The contents of the barcode.
-     * @param scaleFactor amount by which thumbnail was scaled
-     * @param barcode     A greyscale bitmap of the camera data which was decoded.
-     */
+
     public void handleDecode(Result rawResult, Bitmap barcode, float scaleFactor) {
         boolean fromLiveScan = barcode != null;
         if (fromLiveScan) {
@@ -306,13 +300,7 @@ public abstract class BaseCaptureActivity extends Activity implements SurfaceHol
         dealDecode(rawResult, barcode, scaleFactor);
     }
 
-    /**
-     * Superimpose a line for 1D or dots for 2D to highlight the key features of the barcode.
-     *
-     * @param barcode     A bitmap of the captured image.
-     * @param scaleFactor amount by which thumbnail was scaled
-     * @param rawResult   The decoded results which contains the points to draw.
-     */
+
     private void drawResultPoints(Bitmap barcode, float scaleFactor, Result rawResult) {
         ResultPoint[] points = rawResult.getResultPoints();
         if (points != null && points.length > 0) {
