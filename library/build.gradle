@@ -12,13 +12,15 @@ android {
 
 
 }
-group='com.github.hacknife'
-
-publish{
+group = 'com.github.hacknife'
+dependencies {
+    compileOnly 'com.android.support:appcompat-v7:26.0.0'
+}
+publish {
     userOrg = 'hacknife'
     groupId = 'com.hacknife'
     artifactId = 'zxing'
-    publishVersion = '1.0.4'
+    publishVersion = '1.0.5'
     desc = ''
     website = 'https://github.com/hacknife/zxing'
 }

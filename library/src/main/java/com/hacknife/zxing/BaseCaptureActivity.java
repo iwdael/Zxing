@@ -16,6 +16,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.Settings;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -41,7 +42,7 @@ import java.util.Collection;
 import java.util.Map;
 
 
-public abstract class BaseCaptureActivity extends Activity implements SurfaceHolder.Callback {
+public abstract class BaseCaptureActivity extends AppCompatActivity implements SurfaceHolder.Callback {
 
     private static final String TAG = BaseCaptureActivity.class.getSimpleName();
 
@@ -352,11 +353,12 @@ public abstract class BaseCaptureActivity extends Activity implements SurfaceHol
 
     /**
      * 播放声音，执行振动
+     *
      * @param playBeep
      * @param vibrate
      */
     public void playBeepSoundAndVibrate(boolean playBeep, boolean vibrate) {
-        if(beepManager == null)
+        if (beepManager == null)
             return;
         beepManager.playBeepSoundAndVibrate(playBeep, vibrate);
     }
@@ -365,7 +367,7 @@ public abstract class BaseCaptureActivity extends Activity implements SurfaceHol
      * 重新开始扫描，因为扫描成功以后是不会再扫描
      */
     public void reScan() {
-        if(hasSurface) {
+        if (hasSurface) {
             Handler handler = getHandler();
             if (handler != null) {
                 Message message = Message.obtain(handler, Ids.decode_failed);
