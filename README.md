@@ -9,7 +9,7 @@
 <br/>
 <br/>
 <br/>
-![](https://raw.githubusercontent.com/hacknife/Zxing/master/screenshots.png)
+![](https://github.com/hacknife/Zxing/blob/master/screenshots.png)
 <br/>
 <br/>
 
