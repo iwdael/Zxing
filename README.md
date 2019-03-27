@@ -7,10 +7,8 @@
 * 支持识别图片二维码
 * 支持创建二维码(附带Logo)
 <br/>
-<br/>
-<br/>
+
 ![IAMGE](https://github.com/hacknife/Zxing/blob/master/screenshots.png)
-<br/>
 <br/>
 
 ## 概述
