@@ -13,10 +13,15 @@
 <br/>
 <br/>
 ## 概述
+
 Zxing主要是由*BaseCaptureActivity*和*QRHelper*组成。
+
 ## 使用
+
 ### 扫描二维码
+
 通过继承BaseCaptureActivity，并实现两个方法，即可实现扫描二维码功能。
+
 ```
 public class ScanActivity extends BaseCaptureActivity {
     @Override
