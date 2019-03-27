@@ -55,7 +55,7 @@ Bitmap createQRCodeBitmap(String content, int size, int padding,  Bitmap logoBit
 Bitmap createQRCodeBitmap(String content, int size,
                           String character_set, String error_correction, String margin,
                           @ColorInt int color_black, @ColorInt int color_white, Bitmap targetBitmap,
-                          Bitmap logoBitmap, float logoPercent)
+                          Bitmap logoBitmap, float logoPercent);
 ```
 ## 快速引入项目
 合并以下代码到需要使用的Module的dependencies中。
