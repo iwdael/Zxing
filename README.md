@@ -9,7 +9,9 @@
 <br/>
 <br/>
 <br/>
+
 ![](https://raw.githubusercontent.com/hacknife/Zxing/master/screenshots.png)
+
 <br/>
 <br/>
 ## 概述
