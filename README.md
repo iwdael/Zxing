@@ -16,7 +16,7 @@
 
 Zxing主要是由*BaseCaptureActivity*和*QRHelper*组成。
 
-## 使用
+## 使用说明
 
 ### 扫描二维码
 
@@ -37,14 +37,14 @@ public class ScanActivity extends BaseCaptureActivity {
 
 ```
 ### 二维码识别与创建
-#### 识别二维码
+##### 识别二维码
 ```
 Result QRHelper.readQrImage(Bitmap scanBitmap);
 ```
 ```
 Result QRHelper.readQrImage(String picturePath);
 ```
-#### 创建二维码
+##### 创建二维码
 ```
 Bitmap createQRCodeBitmap( String content, int size, int padding);
 ```
@@ -53,9 +53,9 @@ Bitmap createQRCodeBitmap(String content, int size, int padding,  Bitmap logoBit
 ```
 ```
 Bitmap createQRCodeBitmap(String content, int size,
-                                            String character_set, String error_correction, String margin,
-                                            @ColorInt int color_black, @ColorInt int color_white, Bitmap targetBitmap,
-                                            Bitmap logoBitmap, float logoPercent)
+                          String character_set, String error_correction, String margin,
+                          @ColorInt int color_black, @ColorInt int color_white, Bitmap targetBitmap,
+                          Bitmap logoBitmap, float logoPercent)
 ```
 ## 快速引入项目
 合并以下代码到需要使用的Module的dependencies中。
