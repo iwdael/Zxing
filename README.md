@@ -9,11 +9,10 @@
 <br/>
 <br/>
 <br/>
-
 ![](https://raw.githubusercontent.com/hacknife/Zxing/master/screenshots.png)
+<br/>
+<br/>
 
-<br/>
-<br/>
 ## 概述
 
 Zxing主要是由*BaseCaptureActivity*和*QRHelper*组成。
