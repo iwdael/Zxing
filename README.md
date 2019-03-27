@@ -9,7 +9,7 @@
 <br/>
 <br/>
 <br/>
-![](https://github.com/hacknife/Zxing/blob/master/screenshots.png)
+![IAMGE](https://github.com/hacknife/Zxing/blob/master/screenshots.png)
 <br/>
 <br/>
 
